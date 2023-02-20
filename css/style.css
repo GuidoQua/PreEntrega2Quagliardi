@@ -1,0 +1,628 @@
+
+/*======== COMUN A TODOS LOS HTML ========*/
+
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*RESET*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*GENERAL*/
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+    color: #212529;
+    background-color: #F5F0F0;
+    font-size: 1.8rem;
+}
+
+.logo {
+    text-align: center;
+    padding: 2rem;
+}
+
+.btnMio{
+    background-color: #F5EBE0;
+    color:#212529;
+    border: 2px solid #81b29a;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.btnMio:hover{
+    background-color: #81b29a;
+    border: 2px solid #81b29a;
+    color: #F5EBE0;
+    font-weight: 500;
+}
+
+/*HEADER*/
+
+.header{
+    /*position*/
+    position: sticky;
+    top: 0;
+}
+
+/*Nav*/
+
+.navbar {
+    justify-content: center;
+    background-color: #81b29a;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 2rem;
+    margin: 0 4rem;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #212529;
+}
+
+
+li:hover .hoverNav {
+    color: #F5EBE0;
+    font-weight:400;
+}
+
+.navbar-toggler{
+    border-color:#81b29a;
+    background-color:#81b29a;
+    color:#F5EBE0;
+}
+
+/*FOOTER*/
+
+#pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #81b29a;
+}
+
+.imgRedes{
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+}
+
+footer div a{
+    text-decoration: none;
+}
+
+/*======== FIN COMUN A TODOS LOS HTML ========*/
+
+
+/*======== INICIA INDEX ========*/
+
+/*Estilos*/
+
+.mainH1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 3rem;
+    font-weight: 600;
+}
+
+.mainH2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    font-weight: 600;
+}
+
+.imagenContainer{
+    margin-right: 4rem;
+    padding: 1rem;
+}
+
+.imgSection {
+    height: 60rem;
+    width: 50rem;
+    box-shadow: 0px 10px 10px #81b29a; 
+}
+
+.articleOne{
+    padding: 2rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 4rem;
+}
+
+.articleTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #F5EBE0;
+    margin: 2rem 0;
+}
+
+.imgIndxEscrito{
+    height: 30rem;
+    width: 30rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+.spanH2{
+    padding: 1rem 5rem;
+    background-color: #81b29a;
+    color: #F5EBE0;
+}
+
+/*Decoraion y hover*/
+
+.hiperV {
+    text-decoration: none;
+    color: #212529;
+}
+
+a:hover em {
+    color:#81b29a;
+    font-weight:600;
+}
+
+/*======== FIN INDEX ========*/
+
+/*======== INICIA LIBROS ========*/
+
+.titleLibros{
+    text-align: center;
+    font-size: 4rem;
+    padding: 3rem;
+    font-weight: 600;
+}
+
+.card{
+    position: static;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #81b29a;
+    background-color: #F5F0F0;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.list-group{
+    border: 2px solid #81b29a;
+}
+
+.list-group-item{
+    position: static;
+    border: 2px solid #81b29a;
+    background-color: #F5F0F0;
+}
+
+.cardList{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+}
+
+.cardLink{
+    text-decoration: none;
+    color: #212529;
+    background-color: #81b29a;
+    padding: 0.5rem 4rem;
+    color: #F5EBE0;
+}
+
+.card-body:hover .cardLink{
+    color: #F5EBE0;
+    font-weight: 600;
+    padding: 0.5rem 6rem;
+}
+
+.imgLibros{
+    height: 37rem;
+    width: 28rem;
+}
+
+.mainH2L{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+}
+
+.articleLibros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 2rem 4rem;
+}
+
+.listaCompra{
+    margin-top: 2rem;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+    width: 100%;
+    background-color: #F5F0F0;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+}
+
+.linkCompra{
+    text-align: justify;
+    padding: 0;
+}
+
+.linkCompra li a{
+    color: #81b29a;
+}
+
+.linkCompra li{
+    margin: 1rem 0;
+}
+
+/*======== FIN LIBROS ========*/
+
+/*======== INICIA CONTACTO ========*/
+
+.contact{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    font-weight: 600;
+    background-color: #81b29a;
+}
+
+.sectionFlex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.sectionShadow{
+    box-shadow: inset 0 0 10px #212529;
+    }
+
+    #nombre:focus{
+        box-shadow:  0 0 5px 2px #81b29a;
+        border: 1px solid #81b29a;
+    }
+
+    #telefono:focus{
+        box-shadow:  0 0 5px 2px #81b29a;
+        border: 1px solid #81b29a;
+    }
+
+    #email:focus{
+        box-shadow:  0 0 5px 2px #81b29a;
+        border: 1px solid #81b29a;
+    }
+
+    #mensaje:focus{
+        box-shadow:  0 0 5px 2px #81b29a;
+        border: 1px solid #81b29a;
+    }
+
+.imgContacto{
+    height: 100%;
+    width: 100%;
+}
+
+.paddingCont{
+    padding: 1rem;
+    height: 100%;
+}
+
+/*======== FIN CONTACTO ========*/
+
+/*======== INICIA BIOGRAFIA ========*/
+
+.imgBiografia{
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    padding: 1rem;
+}
+
+.articleBio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    text-align: justify;
+}
+
+.mainH2V {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: 600;
+}
+
+/*======== FIN BIOGRAFIA ========*/
+
+/*======== INICIA ESCRITOS ========*/
+
+.artEscritos{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    border-bottom: 2px solid #81b29a;
+    border-right: 2px solid #81b29a;
+}
+
+.imgEscritos
+{
+    height: 30rem;
+    width: 30rem;
+}
+
+.textEscritos{
+    padding-left: 2rem;
+    padding-right: 4rem;
+    text-align: justify;
+}
+
+.divImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+/*======== FIN ESCRITOS ========*/
+
+/*======== CONTAINER GRID ========*/
+
+/*GRID CONTAINER LAYOUT*/
+
+#gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "logo"
+    "header"
+    "main"
+    "pie";
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.header{
+    grid-area: header;
+}
+
+.mainIndx{
+    grid-area: main;
+}
+
+.pieIndx{
+    grid-area: pie;
+}
+
+/*GRID CONTAINER SECTION INDEX*/
+
+#containerSection{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "imagen texto1"
+    "texto2 texto2"
+    "texto2 texto2";
+}
+
+.imagenContainer{
+    grid-area: imagen;
+}
+
+.articleOne{
+    grid-area: texto1;
+    justify-self: start;
+}
+
+.articleTwo{
+    grid-area: texto2;
+    width: 100%;
+}
+
+/*======== MEDIA QUERIES ========*/
+
+/*Breakpoint LG 992*/
+
+@media screen and (max-width: 992px) {
+
+    #gridContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "logo header"
+        "main main"
+        "pie pie";
+    }
+
+    .logo{
+        grid-area: logo;
+        background-color:#81b29a;
+        position:sticky;
+        top: 0;
+    }
+
+    .header{
+        grid-area: header;
+        background-color:#81b29a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainIndx{
+        grid-area: main;
+        background-color:#F5F0F0
+    }
+
+    .pieIndx{
+        grid-area: pie;
+    }
+
+    .backColor{
+        background-color: #81b29a;
+    }
+
+    .btnHamburguer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul li a{
+        color: #F5EBE0;
+    }
+    
+
+    #containerSection{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+        "imagen imagen"
+        "texto1 texto1"
+        "texto2 texto2";
+    }
+
+    .articleOne{
+        margin: 2rem 0;
+        justify-self: center;
+    }
+
+    .imgLogo{
+        height: 50px;
+        width: 182px;
+    }
+
+    .imagenContainer{
+        margin: 0;
+    }
+
+    .imgSection {
+        height: 50rem;
+        width: 40rem;
+    }
+
+    .articleTwo{
+        margin-bottom: 4rem;
+    }
+
+    .imgIndxEscrito{
+        height: 20rem;
+        width: 20rem;
+    }
+
+    form{
+        font-size: 1rem;
+    }
+
+    #pie{
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 907px){
+    .contact{
+        font-size: 2.5rem;
+        padding: 0.5rem;
+    }
+
+}
+
+/*Breakpoint MD 768*/
+
+@media screen and (max-width: 768px) {
+
+    nav ul li{
+        padding: 1rem 0;
+        margin: 0;
+    }
+
+    nav ul li a{
+        font-size: 1rem;
+    }
+
+    .imgSection {
+        height: 36rem;
+        width: 26rem;
+    }
+
+    .articleOne{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 1rem;
+    }
+
+    .articleTwo{
+        font-size: 1.5rem;
+    }
+
+    .imgEscritos{
+        height: 25rem;
+        width: 25rem;
+    }
+}
+
+/*Reajustes pequeños en cosas que se rompen*/
+
+@media screen and (max-width: 373px) {
+
+    .spanH2{
+        font-size: 1.2rem;
+    }
+
+    .articleLibros{
+        padding: 2rem 0;
+        }
+
+    .linkCompra li a{
+        font-size: 1.2rem;
+        }
+}
